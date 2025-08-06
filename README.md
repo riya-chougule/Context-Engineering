@@ -25,4 +25,10 @@ Install the required packages:
 ```bash
 pip install langchain-community langchain-openai faiss-cpu gradio
 
+import gradio as gr
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.chains import ConversationalRetrievalChain
+from langchain.memory import ConversationBufferMemory
 
