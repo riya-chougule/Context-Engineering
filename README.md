@@ -13,6 +13,9 @@ This project demonstrates a simple example of **context engineering** to improve
 - Interactive web interface built with Gradio for easy testing  
 
 ---
+Demo 🎯
+
+<img width="1409" alt="context_engineering_demo.png" src="context_engineering_demo.png">
 
 ## Installation
 
@@ -22,6 +25,4 @@ Install the required packages:
 ```bash
 pip install langchain-community langchain-openai faiss-cpu gradio
 
-Demo 🎯
 
-<img width="1409" alt="context_engineering_demo.png" src="context_engineering_demo.png">
